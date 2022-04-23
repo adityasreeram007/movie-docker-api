@@ -1,0 +1,2 @@
+docker build . -t movie-docker
+docker run -p 49161:8080 -d movie-docker
